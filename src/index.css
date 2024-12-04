@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Stylish Scrollbar */
+.stylish-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.stylish-scrollbar::-webkit-scrollbar-track {
+  background: #ffffff; /* Dark Gray */
+}
+
+.stylish-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #ffffff; /* Lighter Gray */
+  border-radius: 10px;
+  border: 2px solid #1f2937; /* Dark Gray */
+}
+
+/* For Firefox */
+.stylish-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 #ffffff;
+}
